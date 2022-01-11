@@ -226,8 +226,16 @@
     cursor: pointer;
     width: 50%;
   }
-  
-  .modal__buttons > .add:hover {
+
+  .modal__buttons > .MuiButton-root {
+    color: white;
+    background: #222;
+    text-transform: inherit;
+    border-radius: 20px;
+    margin: 10px 0px 0px 0px;
+  }
+
+  .modal__buttons > .MuiButton-root:hover {
     background-color: #eee;
     color: #222;
   }
